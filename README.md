@@ -11,79 +11,76 @@ A smart city must prioritize the well-being of its citizens. This business case 
 **3. Education Hub 🎓**  
 Chitranagari envisions becoming an educational powerhouse by establishing a network of schools, colleges, and research institutions. This business case focuses on creating a smart education system integrated with cutting-edge technology, including e-learning platforms, virtual labs, and interactive classrooms. Special emphasis will be placed on skill development and vocational training centers to prepare students for future industries. Partnerships with global universities and organizations will be encouraged to foster innovation and knowledge exchange. Scholarships and affordable education programs will be introduced to ensure inclusivity and accessibility for all citizens.
 
+### Course learning outcomes
+# 1. What are the kinds of problems we see in nature?
+Nature shows many examples of problem-solving:
 
-##COURSE LEARNING REFLECTIONS 
+Iteration: Tides rise and fall in a regular, repeated pattern.
+Recursion: A cauliflower looks the same at every level, from stem to tip.
+Backtracking: Solving a maze by going back when you hit a dead end.
+These ideas help us solve similar problems in algorithms.
 
- ### 1. Iteration, Recursion, and Backtracking  
-In nature , we come across many kinds of problems that could be solved using algorithm techniques that includes iteration , recursion , backtracking  
+# 2. What is space and time efficiency? Why are they important?
+Time efficiency: How fast an algorithm works.
+Space efficiency: How much extra memory it needs.
+If an algorithm is too slow or uses too much memory, it won’t work well for large problems.
 
-#### **Iteration**  
-Iteration involves repeating a task multiple times in a process. 
-For example, spiral arrangements of petals in flower or arranging Matryoshka dolls involves repeating the same action—forming a flower or nesting the dolls—until there isno more space left or dolls to handle.
+Types of growth in algorithms:
 
-#### **Recursion**  
-Recursion involves solving a problem by breaking it down into smaller groups of the same problem.  
-For instance, cell division process and food chain also involves recurssion 
+Constant time (O(1)): Always the same speed.
+Logarithmic time (O(log n)): Gets slower, but not by much.
+Linear time (O(n)): Slows down as input gets bigger.
+Linearithmic time (O(n log n)): Slower than linear, but not too bad.
+Quadratic time (O(n²)): Much slower as input grows.
+Cubic time (O(n³)): Slower than quadratic.
+Exponential (O(2ⁿ)) and Factorial time (O(n!)): Extremely slow for large inputs.
 
-#### **Backtracking**  
-Backtracking explores multiple possibilities, retracing steps when a chosen path doesnt leads to a desired result.  
-Examples include solving Sudoku puzzles or tackling the N-Queens problem. In these situations, the process involves trial and error, testing one path at a time and reverting to earlier steps when necessary.
+# 3. What are the takeaways from different design principles?
+Key ideas to solve problems:
 
----
+Divide and conquer: Break a problem into smaller pieces, solve them, and combine the results.
+Dynamic programming: Save answers to smaller problems so you don’t repeat work.
+Greedy algorithms: Always choose the best option at each step.
+Backtracking: Test all possibilities and undo bad choices.
+These ideas make algorithms faster and easier to understand.
 
-### 2. Space and Time Efficiency & Orders of Growth  
+# 4. How do tree data structures solve problems?
+Trees are used to organize data in a hierarchy:
 
-#### **Space Efficiency**  
-This refers to the additional memory required by an algorithm during execution.  
+Binary Search Tree (BST): Good for searching sorted data but can become unbalanced.
+AVL Tree: A balanced BST that works efficiently.
+2-3 Tree: Easier to use for changing data.
+Red-Black Tree: A balanced tree with fewer changes needed.
+Heap: Used to find the largest or smallest value quickly.
+Trie: Used to search words based on their prefixes.
 
-#### **Time Efficiency**  
-This measures how long an algorithm takes to complete a task. Both metrics help evaluate how practical and efficient an algorithm is for a specific problem.  
+# 5. Why do we need array query algorithms?
+Array query algorithms make it faster to answer questions about an array, like finding the sum or maximum in a range.
 
-#### **Orders of Growth**  
-This describes how an algorithm’s execution time scales with input size.  
-The growth can be constant, logarithmic, linear, quadratic, or cubic, depending on how input size impacts performance.
+Examples:
 
----
+Prefix sums: Quickly calculate sums over any range.
+Segment trees and Fenwick trees: Update and query data fast.
+These are useful in games, stock markets, and databases.
 
-### 3. Design Principles  
+# 6. What is the difference between trees and graphs?
+Tree: A strict hierarchy with no loops (like a family tree).
+Graph: A collection of connected nodes that can form loops (like a map of roads).
+Traversals:
 
-Different design principles are developed to optimize problems, and selecting the right principle for a given problem is essential for efficiency.  
-For example:  
-- **Pruning** is ideal for solving the N-Queens problem, but **Parental Dominance** would not be suitable.  
-- **Bit Manipulation** is used in Fenwick Trees, whereas **Edge Relaxation** is applied in spanning trees.  
+Trees: Preorder, Inorder, Postorder (for hierarchical data).
+Graphs: DFS and BFS (for exploring networks or maps).
+Uses:
 
-Applying the wrong principle complicates the problem rather than simplifying it, underscoring the importance of matching the design principle to the problem.
+Trees are used for organizing files and decision-making.
+Graphs are used in social networks and routing systems.
+# 7. What about sorting and searching algorithms?
+Sorting: Organizes data:
 
----
+Simple ones (Bubble Sort) are for small data.
+Fast ones (Quick Sort, Merge Sort) work for big data.
+Searching: Finds data:
 
-### 4. Tree Data Structures  
-
-Tree structures are designed for hierarchical data organization. Where elements (nodes) are connected by edges. A tree starts from a root node and branches out into child nodes, with no cycles. 
-- **Balanced Trees** (AVL, Red-Black, 2-3 trees): Useful for maintaining balance through rotations, enabling faster search, insertion, and deletion operations with a time complexity of \( O(\log n) \).  
-- **Trie**: Ideal for managing character data like dictionaries or prefixes.  
-- **Heap**: Must satisfy the tree shape and parental dominance properties.
-
----
-
-### 5. Array Query Algorithms  
-
-Array query algorithms are effective for small and static datasets, such as finding the sum, minimum, maximum, or other properties over a range of indices.
-These algorithms leverage **pre-computation** by storing previously calculated results to avoid redundant calculations.  
-Structures like Segment Trees,Sparse Tables and Fenwick Trees use this principle, making them efficient for array queries.
-
----
-### 6. Difference between trees and graphs 
-Trees are hierarchical data structures with n nodes and n−1 edges, where each node has a single root to node path, making them acyclic. Traversals include Inorder, Preorder, and Postorder.
-DFS and BFS are also used in tree traversals.
-Graphs on the other hand, are generalized structures where nodes(vertices) connect through edges, which can form cycles and can be directed or undirected.
-Its applications include navigation systems and other network purposes.
-
-### 7. Sorting and Searching algorithms 
-Sorting algorithms organize data for efficient access and manipulation.
-They include sorting techniques like quick sort, merge sort, Bubble Sort
-Searching algorithms locate data within structures
-They include searching techniques binary search and linear search.
-
-### 8. Graph algorithms
-Graph algorithms solve essential problems in connectivity and optimization.
-These algorithms include 
+Linear Search: Check each item, slower.
+Binary Search: Look in sorted data, faster.
+Real-life examples: Sorting helps rank search results, and searching is used in maps or finding contacts.
