@@ -2,11 +2,6 @@
 
 ### Business Cases identified by Aditi Choudhary (01FE23BCS128)
 
-CHITRANAGARI: SMART CITY DESIGN  
-Handled by Nandita Gaitonde: 01FE23BCS117  
-
-### Business Cases Identified  
-
 **1. Industrial Expansion 🏭**  
 As Chitranagari grows, it aims to establish itself as a hub for industrial development. The business case for industrial expansion involves the creation of dedicated industrial zones to boost economic growth and job opportunities. These zones will include small-scale, medium-scale, and large-scale industries with adequate infrastructure, such as efficient road networks, power supply, and waste management systems. The motive is twofold: 1. Attract investments from domestic and international companies, and 2. Utilize the revenue generated for further development of the city. Sustainable practices, such as green manufacturing units and carbon-neutral goals, will be incorporated to ensure environmental responsibility.
 
