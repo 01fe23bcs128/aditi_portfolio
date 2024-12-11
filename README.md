@@ -1,17 +1,66 @@
-## CHITRANAGARI : SMART CITY DESIGN 
-
-### Business Cases identified by Aditi Choudhary (01FE23BCS128)
-
-**1. Industrial Expansion 🏭**  
-As Chitranagari grows, it aims to establish itself as a hub for industrial development. The business case for industrial expansion involves the creation of dedicated industrial zones to boost economic growth and job opportunities. These zones will include small-scale, medium-scale, and large-scale industries with adequate infrastructure, such as efficient road networks, power supply, and waste management systems. The motive is twofold: 1. Attract investments from domestic and international companies, and 2. Utilize the revenue generated for further development of the city. Sustainable practices, such as green manufacturing units and carbon-neutral goals, will be incorporated to ensure environmental responsibility.
-
-**2. Healthcare Infrastructure 🏥**  
-A smart city must prioritize the well-being of its citizens. This business case focuses on building a robust healthcare ecosystem, including multi-specialty hospitals, community health centers, and digital health facilities for remote consultations. With advanced healthcare systems integrated with AI and IoT, Chitranagari aims to provide efficient and accessible services to its citizens. Preventive healthcare initiatives, like fitness zones, parks, and awareness programs, will also be introduced. Additionally, the plan includes public health monitoring systems and a centralized emergency response mechanism to enhance healthcare delivery.
-
-**3. Education Hub 🎓**  
-Chitranagari envisions becoming an educational powerhouse by establishing a network of schools, colleges, and research institutions. This business case focuses on creating a smart education system integrated with cutting-edge technology, including e-learning platforms, virtual labs, and interactive classrooms. Special emphasis will be placed on skill development and vocational training centers to prepare students for future industries. Partnerships with global universities and organizations will be encouraged to foster innovation and knowledge exchange. Scholarships and affordable education programs will be introduced to ensure inclusivity and accessibility for all citizens.
-
 # Chitranagari: Smart City Design  
+
+### Business Cases Identified by **Aditi Choudhary (01FE23BCS128)**  
+
+---
+
+## 1. Industrial Expansion 🏭  
+
+### Objective:  
+To establish Chitranagari as a hub for industrial development by creating dedicated industrial zones that promote economic growth and job opportunities.  
+
+### Key Features:  
+- **Industrial Zones:**  
+  - Small, medium, and large-scale industries with robust infrastructure.  
+  - Efficient road networks, power supply, and waste management systems.  
+
+- **Investment Opportunities:**  
+  - Attract domestic and international investments.  
+  - Utilize revenue generated for further city development.  
+
+- **Sustainability:**  
+  - Incorporate green manufacturing units.  
+  - Aim for carbon-neutral operations to ensure environmental responsibility.  
+
+---
+
+## 2. Healthcare Infrastructure 🏥  
+
+### Objective:  
+To prioritize the health and well-being of citizens by building a strong healthcare ecosystem.  
+
+### Key Features:  
+- **Modern Healthcare Facilities:**  
+  - Multi-specialty hospitals, community health centers, and digital health services for remote consultations.  
+
+- **Preventive Healthcare Initiatives:**  
+  - Fitness zones, parks, and health awareness programs.  
+
+- **Emergency Response Systems:**  
+  - Centralized public health monitoring and rapid response mechanisms integrated with advanced technologies like AI and IoT.  
+
+---
+
+## 3. Education Hub 🎓  
+
+### Objective:  
+To establish Chitranagari as an educational powerhouse by fostering a smart and inclusive learning ecosystem.  
+
+### Key Features:  
+- **Advanced Educational Infrastructure:**  
+  - Schools, colleges, and research institutions with modern facilities.  
+  - Integration of e-learning platforms, virtual labs, and interactive classrooms.  
+
+- **Skill Development:**  
+  - Vocational training centers for industry-relevant skills.  
+  - Collaboration with global universities and organizations to promote innovation.  
+
+- **Inclusive Education:**  
+  - Scholarships and affordable education programs for all.  
+
+---
+Chitranagari is designed to align with **sustainable development goals (SDGs)** through its focus on industrial growth, healthcare advancements, and educational improvements, ensuring an inclusive and environmentally responsible smart city.  
+
 
 ## Business Cases 🤝 SDG Targets and Indicators  
 
