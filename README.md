@@ -11,6 +11,38 @@ A smart city must prioritize the well-being of its citizens. This business case 
 **3. Education Hub 🎓**  
 Chitranagari envisions becoming an educational powerhouse by establishing a network of schools, colleges, and research institutions. This business case focuses on creating a smart education system integrated with cutting-edge technology, including e-learning platforms, virtual labs, and interactive classrooms. Special emphasis will be placed on skill development and vocational training centers to prepare students for future industries. Partnerships with global universities and organizations will be encouraged to foster innovation and knowledge exchange. Scholarships and affordable education programs will be introduced to ensure inclusivity and accessibility for all citizens.
 
+### Business Cases 🤝 SDG Targets and Indicators  
+
+**1. Industrial Expansion 🏭**  
+**SDG Goal 9:** Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation.  
+**SDG Target 9.2:** Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries.  
+**SDG Indicator:**  
+- **9.2.1:** Manufacturing value-added as a proportion of GDP and per capita.  
+- **9.2.2:** Manufacturing employment as a proportion of total employment.  
+
+The business case for industrial expansion aligns with SDG Goal 9 by creating industrial zones that boost employment and economic growth. This will involve efficient resource utilization, green manufacturing practices, and carbon-neutral operations. To achieve this, we can optimize resource allocation by employing algorithms like **linear programming** to balance production outputs with sustainable goals.  
+
+---
+
+**2. Healthcare Infrastructure 🏥**  
+**SDG Goal 3:** Ensure healthy lives and promote well-being for all at all ages.  
+**SDG Target 3.8:** Achieve universal health coverage, including financial risk protection, access to quality essential healthcare services, and access to safe, effective, quality, and affordable essential medicines and vaccines for all.  
+**SDG Indicator:**  
+- **3.8.1:** Coverage of essential health services.  
+- **3.8.2:** Proportion of the population with large household expenditures on health as a share of total household expenditure or income.  
+
+Chitranagari’s healthcare initiatives directly contribute to achieving SDG Goal 3 by focusing on equitable access to quality healthcare. This involves optimizing the placement of healthcare facilities to maximize accessibility, which can be modeled using **graph-based shortest path algorithms** like Dijkstra’s to minimize travel time to medical services.  
+
+---
+
+**3. Education Hub 🎓**  
+**SDG Goal 4:** Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.  
+**SDG Target 4.4:** By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs, and entrepreneurship.  
+**SDG Indicator:**  
+- **4.4.1:** Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill.  
+
+The education hub initiative aligns with SDG Goal 4 by creating a robust education system that includes skill development centers and smart classrooms. To determine the optimal distribution of resources and learning tools, **knapsack algorithms** can help prioritize investments in infrastructure, ensuring efficient allocation of funds while meeting the target of universal and inclusive education.  
+
 ### Course learning outcomes
 # 1. What are the kinds of problems we see in nature?
 Nature shows many examples of problem-solving:
@@ -84,3 +116,5 @@ Searching: Finds data:
 Linear Search: Check each item, slower.
 Binary Search: Look in sorted data, faster.
 Real-life examples: Sorting helps rank search results, and searching is used in maps or finding contacts.
+
+
