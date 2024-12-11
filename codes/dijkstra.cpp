@@ -1,85 +1,73 @@
-#include <iostream>
-
+#include<bits/stdc++.h>
 using namespace std;
 
-class dij{
-  public:
-      int n;
-      int v[10];
-      int dist[10];
-      int path[10];
-      int vis[10];
-      int cost[10][10];
 
-      void read();
-      void init(int src);
-      void print();
-
+class Solution
+{
+	public:
+	//Function to find the shortest distance of all the vertices
+    //from the source vertex S.
+    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
+    {
+        // Code here
+       priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
+       //min heap
+       
+       vector<int> dist(V,1e9);
+       dist[S]=0;
+       pq.push({0,S});  //{dist,node}
+       while(!pq.empty())
+       {
+           auto front=pq.top();   int dis=front.first; int node=front.second; pq.pop();
+           for(auto it:adj[node])
+           {
+               int edgeWeight=it[1];
+               int adjNode=it[0];
+               if(dis+edgeWeight < dist[adjNode])
+               {
+                   dist[adjNode]=dis+edgeWeight;
+                   pq.push({dist[adjNode],adjNode});
+               }
+           }
+       } 
+       return dist;
+       
+    }
 };
-
-void dij::read()
-      {
-          cout<<"Enter the no. of vertices"<<endl;
-          cin>>n;
-          cout<<"Enter the vertices"<<endl;
-          for(int i=0;i<n;i++)
-          {
-              cin>>v[i];
-          }
-          cout<<"enter the cost matrix"<<endl;
-          for(int i=0;i<n;i++)
-          {
-              for(int j=0;j<n;j++)
-              {
-                  cin>>cost[i][j];
-              }
-          }
-      }
-
-void dij:: init(int src)
-{
-   for(int i=0;i<n;i++)
-   {
-       path[i]=src;
-   }
-   for(int i=0;i<n;i++)
-   {
-       dist[i]=cost[src][i];
-   }
-   cout<<endl;
-}
-
-
-
-/*void dij::shortest_path(int src)
-{
-    path[10]={src};
-    
-}*/
-
-
-void dij::print()
-{
-   for(int i=0;i<n;i++)
-          {
-              for(int j=0;j<n;j++)
-              {
-                  cout<<cost[i][j]<<"     ";
-              }
-              cout<<endl;
-          }
-}
 
 int main()
 {
-    dij d;
-    int src;
-    cout<<"Enter the source vertex"<<endl;
-    cin>>src;
-    d.read();
-    d.init(src);
-    d.min
-    //d.shortest_path(src)
-    d.print();
-    return 0;
+    int t;
+    cin >> t;
+    while (t--) {
+        int V, E;
+        cin >> V >> E;
+        vector<vector<int>> adj[V];
+        int i=0;
+        while (i++<E) {
+            int u, v, w;
+            cin >> u >> v >> w;
+            vector<int> t1,t2;
+            t1.push_back(v);
+            t1.push_back(w);
+            adj[u].push_back(t1);
+            t2.push_back(u);
+            t2.push_back(w);
+            adj[v].push_back(t2);
+        }
+        int S;
+        cin>>S;
+        
+      Solution obj;
+    	vector<int> res = obj.dijkstra(V, adj, S);
+    	
+    	for(int i=0; i<V; i++)
+    	    cout<<res[i]<<" ";
+    	cout<<endl;
+    }
+
+    return 0;
 }
+
+
+// } Driver Code Ends
