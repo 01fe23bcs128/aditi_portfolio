@@ -11,37 +11,45 @@ A smart city must prioritize the well-being of its citizens. This business case 
 **3. Education Hub 🎓**  
 Chitranagari envisions becoming an educational powerhouse by establishing a network of schools, colleges, and research institutions. This business case focuses on creating a smart education system integrated with cutting-edge technology, including e-learning platforms, virtual labs, and interactive classrooms. Special emphasis will be placed on skill development and vocational training centers to prepare students for future industries. Partnerships with global universities and organizations will be encouraged to foster innovation and knowledge exchange. Scholarships and affordable education programs will be introduced to ensure inclusivity and accessibility for all citizens.
 
-### Business Cases 🤝 SDG Targets and Indicators  
+# Chitranagari: Smart City Design  
 
-**1. Industrial Expansion 🏭**  
+## Business Cases 🤝 SDG Targets and Indicators  
+
+### 1. Industrial Expansion 🏭  
 **SDG Goal 9:** Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation.  
-**SDG Target 9.2:** Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries.  
-**SDG Indicator:**  
-- **9.2.1:** Manufacturing value-added as a proportion of GDP and per capita.  
-- **9.2.2:** Manufacturing employment as a proportion of total employment.  
+- **Target:** Develop quality, reliable, sustainable, and resilient infrastructure to support economic development and human well-being.  
+- **Indicator:** Proportion of industries implementing sustainable practices and increasing resource-use efficiency.  
 
-The business case for industrial expansion aligns with SDG Goal 9 by creating industrial zones that boost employment and economic growth. This will involve efficient resource utilization, green manufacturing practices, and carbon-neutral operations. To achieve this, we can optimize resource allocation by employing algorithms like **linear programming** to balance production outputs with sustainable goals.  
+**Plan:**  
+- **Connecting industrial zones:** Utilize **Kruskal's algorithm** to design minimal spanning tree networks for linking industrial zones with transportation hubs, ensuring efficient logistics and supply chain management.  
+- **Prioritizing projects:** Apply **Heap sort** to rank industrial projects based on factors like cost, sustainability impact, and implementation urgency.  
+- **Green manufacturing:** Promote eco-friendly practices and optimize industrial operations using resource-efficient methods.  
 
 ---
 
-**2. Healthcare Infrastructure 🏥**  
+### 2. Healthcare Infrastructure 🏥  
 **SDG Goal 3:** Ensure healthy lives and promote well-being for all at all ages.  
-**SDG Target 3.8:** Achieve universal health coverage, including financial risk protection, access to quality essential healthcare services, and access to safe, effective, quality, and affordable essential medicines and vaccines for all.  
-**SDG Indicator:**  
-- **3.8.1:** Coverage of essential health services.  
-- **3.8.2:** Proportion of the population with large household expenditures on health as a share of total household expenditure or income.  
+- **Target:** Achieve universal health coverage, including access to quality essential healthcare services.  
+- **Indicator:** Coverage of essential health services (e.g., proximity and accessibility of healthcare facilities).  
 
-Chitranagari’s healthcare initiatives directly contribute to achieving SDG Goal 3 by focusing on equitable access to quality healthcare. This involves optimizing the placement of healthcare facilities to maximize accessibility, which can be modeled using **graph-based shortest path algorithms** like Dijkstra’s to minimize travel time to medical services.  
+**Plan:**  
+- **Facility placement optimization:** Use **Dijkstra’s algorithm** to determine the shortest paths to healthcare facilities, ensuring they are accessible to all citizens.  
+- **Emergency response efficiency:** Leverage **Floyd-Warshall’s algorithm** to compute all-pairs shortest paths for ambulances, improving response times in emergencies.  
+- **Resource prioritization:** Use **Heap sort** to rank and distribute medical equipment and resources based on urgency and availability.  
 
 ---
 
-**3. Education Hub 🎓**  
+### 3. Education Hub 🎓  
 **SDG Goal 4:** Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.  
-**SDG Target 4.4:** By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs, and entrepreneurship.  
-**SDG Indicator:**  
-- **4.4.1:** Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill.  
+- **Target:** Build and upgrade education facilities to be child, disability, and gender-sensitive, and provide safe, inclusive, and effective learning environments.  
+- **Indicator:** Proportion of schools with access to electricity, internet, computers, and gender-separated sanitation facilities.  
 
-The education hub initiative aligns with SDG Goal 4 by creating a robust education system that includes skill development centers and smart classrooms. To determine the optimal distribution of resources and learning tools, **knapsack algorithms** can help prioritize investments in infrastructure, ensuring efficient allocation of funds while meeting the target of universal and inclusive education.  
+**Plan:**  
+- **Network planning:** Utilize **Prim’s algorithm** to design efficient connections between educational institutions across the city, minimizing costs.  
+- **Resource allocation:** Apply **Quick sort** to prioritize and distribute resources like teaching tools, technology, and infrastructure upgrades.  
+- **Improved accessibility:** Use **Dijkstra’s algorithm** to optimize routes between residential areas and schools, reducing travel times for students and teachers.  
+
+---
 
 # Course Learning Outcomes  
 
