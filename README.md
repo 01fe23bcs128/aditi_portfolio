@@ -43,78 +43,96 @@ Chitranagari’s healthcare initiatives directly contribute to achieving SDG Goa
 
 The education hub initiative aligns with SDG Goal 4 by creating a robust education system that includes skill development centers and smart classrooms. To determine the optimal distribution of resources and learning tools, **knapsack algorithms** can help prioritize investments in infrastructure, ensuring efficient allocation of funds while meeting the target of universal and inclusive education.  
 
-### Course learning outcomes
-# 1. What are the kinds of problems we see in nature?
-Nature shows many examples of problem-solving:
+# Course Learning Outcomes  
 
-Iteration: Tides rise and fall in a regular, repeated pattern.
-Recursion: A cauliflower looks the same at every level, from stem to tip.
-Backtracking: Solving a maze by going back when you hit a dead end.
-These ideas help us solve similar problems in algorithms.
+## 1. What are the kinds of problems we see in nature?  
+Nature provides numerous examples of problem-solving approaches:  
 
-# 2. What is space and time efficiency? Why are they important?
-Time efficiency: How fast an algorithm works.
-Space efficiency: How much extra memory it needs.
-If an algorithm is too slow or uses too much memory, it won’t work well for large problems.
+- **Iteration:** Tides rise and fall in a regular, repeated pattern.  
+- **Recursion:** A cauliflower looks identical at every level, from stem to tip.  
+- **Backtracking:** Solving a maze by retracing steps when hitting a dead end.  
 
-Types of growth in algorithms:
+These natural patterns inspire solutions to similar problems in algorithm design.  
 
-Constant time (O(1)): Always the same speed.
-Logarithmic time (O(log n)): Gets slower, but not by much.
-Linear time (O(n)): Slows down as input gets bigger.
-Linearithmic time (O(n log n)): Slower than linear, but not too bad.
-Quadratic time (O(n²)): Much slower as input grows.
-Cubic time (O(n³)): Slower than quadratic.
-Exponential (O(2ⁿ)) and Factorial time (O(n!)): Extremely slow for large inputs.
+---
 
-# 3. What are the takeaways from different design principles?
-Key ideas to solve problems:
+## 2. What is space and time efficiency? Why are they important?  
 
-Divide and conquer: Break a problem into smaller pieces, solve them, and combine the results.
-Dynamic programming: Save answers to smaller problems so you don’t repeat work.
-Greedy algorithms: Always choose the best option at each step.
-Backtracking: Test all possibilities and undo bad choices.
-These ideas make algorithms faster and easier to understand.
+- **Time efficiency:** Measures how fast an algorithm performs.  
+- **Space efficiency:** Measures how much additional memory it requires.  
 
-# 4. How do tree data structures solve problems?
-Trees are used to organize data in a hierarchy:
+If an algorithm is slow or consumes excessive memory, it becomes impractical for large-scale problems.  
 
-Binary Search Tree (BST): Good for searching sorted data but can become unbalanced.
-AVL Tree: A balanced BST that works efficiently.
-2-3 Tree: Easier to use for changing data.
-Red-Black Tree: A balanced tree with fewer changes needed.
-Heap: Used to find the largest or smallest value quickly.
-Trie: Used to search words based on their prefixes.
+### Types of Growth in Algorithms:  
 
-# 5. Why do we need array query algorithms?
-Array query algorithms make it faster to answer questions about an array, like finding the sum or maximum in a range.
+- **Constant time (O(1)):** Performance remains the same regardless of input size.  
+- **Logarithmic time (O(log n)):** Slows slightly as input grows.  
+- **Linear time (O(n)):** Performance slows proportionally with input size.  
+- **Linearithmic time (O(n log n)):** Slower than linear, but manageable.  
+- **Quadratic time (O(n²)):** Becomes significantly slower with larger inputs.  
+- **Cubic time (O(n³)):** Even slower than quadratic.  
+- **Exponential (O(2ⁿ)) and Factorial (O(n!)):** Infeasible for large inputs.  
 
-Examples:
+---
 
-Prefix sums: Quickly calculate sums over any range.
-Segment trees and Fenwick trees: Update and query data fast.
-These are useful in games, stock markets, and databases.
+## 3. What are the takeaways from different design principles?  
+Effective problem-solving relies on various design principles:  
 
-# 6. What is the difference between trees and graphs?
-Tree: A strict hierarchy with no loops (like a family tree).
-Graph: A collection of connected nodes that can form loops (like a map of roads).
-Traversals:
+- **Divide and Conquer:** Break a problem into smaller parts, solve them individually, and combine results.  
+- **Dynamic Programming:** Store solutions to subproblems to avoid redundant calculations.  
+- **Greedy Algorithms:** Choose the optimal solution at each step.  
+- **Backtracking:** Explore all possibilities and revert incorrect decisions.  
 
-Trees: Preorder, Inorder, Postorder (for hierarchical data).
-Graphs: DFS and BFS (for exploring networks or maps).
-Uses:
+These principles improve algorithm performance and simplify complex problems.  
 
-Trees are used for organizing files and decision-making.
-Graphs are used in social networks and routing systems.
-# 7. What about sorting and searching algorithms?
-Sorting: Organizes data:
+---
 
-Simple ones (Bubble Sort) are for small data.
-Fast ones (Quick Sort, Merge Sort) work for big data.
-Searching: Finds data:
+## 4. How do tree data structures solve problems?  
+Trees provide an organized way to store hierarchical data:  
 
-Linear Search: Check each item, slower.
-Binary Search: Look in sorted data, faster.
-Real-life examples: Sorting helps rank search results, and searching is used in maps or finding contacts.
+- **Binary Search Tree (BST):** Efficient for searching sorted data but may become unbalanced.  
+- **AVL Tree:** A self-balancing BST for optimal performance.  
+- **2-3 Tree:** Handles dynamic data effectively.  
+- **Red-Black Tree:** A balanced tree with fewer rebalancing operations.  
+- **Heap:** Quickly finds the largest or smallest value.  
+- **Trie:** Ideal for searching words or prefixes.  
 
+---
 
+## 5. Why do we need array query algorithms?  
+Array query algorithms enhance efficiency in answering range-based questions (e.g., finding the sum or maximum).  
+
+### Examples:  
+- **Prefix Sums:** Quickly calculate sums over any range.  
+- **Segment Trees and Fenwick Trees:** Enable fast updates and queries.  
+
+Applications include gaming, financial systems, and databases.  
+
+---
+
+## 6. What is the difference between trees and graphs?  
+### Trees:  
+- **Structure:** A strict hierarchy with no loops (e.g., family trees).  
+- **Traversals:** Preorder, Inorder, and Postorder for hierarchical analysis.  
+- **Applications:** File organization, decision-making systems.  
+
+### Graphs:  
+- **Structure:** A collection of nodes and edges, allowing loops (e.g., road maps).  
+- **Traversals:** Depth-First Search (DFS) and Breadth-First Search (BFS) for exploring networks.  
+- **Applications:** Social networks, routing, and navigation systems.  
+
+---
+
+## 7. What about sorting and searching algorithms?  
+
+### Sorting Algorithms:  
+- **Simple Algorithms:** Bubble Sort works well for small datasets.  
+- **Efficient Algorithms:** Quick Sort and Merge Sort are suitable for large datasets.  
+
+### Searching Algorithms:  
+- **Linear Search:** Scans each element, slower but works with unsorted data.  
+- **Binary Search:** Operates on sorted data for faster performance.  
+
+### Real-life Applications:  
+- Sorting algorithms rank search results or organize data.  
+- Searching algorithms locate contacts or find optimal paths in maps.  
