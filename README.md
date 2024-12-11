@@ -21,8 +21,8 @@ Chitranagari envisions becoming an educational powerhouse by establishing a netw
 - **Indicator:** Proportion of industries implementing sustainable practices and increasing resource-use efficiency.  
 
 **Plan:**  
-- **Connecting industrial zones:** Utilize **Kruskal's algorithm** to design minimal spanning tree networks for linking industrial zones with transportation hubs, ensuring efficient logistics and supply chain management.  
-- **Prioritizing projects:** Apply **Heap sort** to rank industrial projects based on factors like cost, sustainability impact, and implementation urgency.  
+- **Connecting industrial zones:** Utilize **Kruskal's algorithm** to design minimal spanning tree networks for linking industrial zones with transportation hubs, ensuring efficient logistics and supply chain management.  [Kruskal code](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/kruskal.cpp)
+- **Prioritizing projects:** Apply **Heap sort** to rank industrial projects based on factors like cost, sustainability impact, and implementation urgency.[Heap sort](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/heap_sort.cpp)  
 - **Green manufacturing:** Promote eco-friendly practices and optimize industrial operations using resource-efficient methods.  
 
 ---
@@ -33,9 +33,9 @@ Chitranagari envisions becoming an educational powerhouse by establishing a netw
 - **Indicator:** Coverage of essential health services (e.g., proximity and accessibility of healthcare facilities).  
 
 **Plan:**  
-- **Facility placement optimization:** Use **Dijkstra’s algorithm** to determine the shortest paths to healthcare facilities, ensuring they are accessible to all citizens.  
+- **Facility placement optimization:** Use **Dijkstra’s algorithm** to determine the shortest paths to healthcare facilities, ensuring they are accessible to all citizens.  [Dijkstra code](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/dijkstra.cpp)
 - **Emergency response efficiency:** Leverage **Floyd-Warshall’s algorithm** to compute all-pairs shortest paths for ambulances, improving response times in emergencies.  
-- **Resource prioritization:** Use **Heap sort** to rank and distribute medical equipment and resources based on urgency and availability.  
+- **Resource prioritization:** Use **Heap sort** to rank and distribute medical equipment and resources based on urgency and availability. [Heap sort](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/heap_sort.cpp)
 
 ---
 
@@ -46,8 +46,8 @@ Chitranagari envisions becoming an educational powerhouse by establishing a netw
 
 **Plan:**  
 - **Network planning:** Utilize **Prim’s algorithm** to design efficient connections between educational institutions across the city, minimizing costs.  
-- **Resource allocation:** Apply **Quick sort** to prioritize and distribute resources like teaching tools, technology, and infrastructure upgrades.  
-- **Improved accessibility:** Use **Dijkstra’s algorithm** to optimize routes between residential areas and schools, reducing travel times for students and teachers.  
+- **Resource allocation:** Apply **Quick sort** to prioritize and distribute resources like teaching tools, technology, and infrastructure upgrades.[Quick sort](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/quick_sort.cpp)  
+- **Improved accessibility:** Use **Dijkstra’s algorithm** to optimize routes between residential areas and schools, reducing travel times for students and teachers.  [Dijkstra code](https://github.com/01fe23bcs128/aditi_portfolio/blob/main/codes/dijkstra.cpp)
 
 ---
 
